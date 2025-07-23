@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khu Liên hợp sản xuất công nghệ cao MEKONG | Dự án đầu tư 10 triệu USD</title>
+    <meta name="description" content="Dự án đầu tư xây dựng khu liên hợp sản xuất công nghệ cao MEKONG - 50 năm phát triển bền vững, IoT, Robot AMR, AI">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary-blue: #0072C6;
+            --mekong-gold: #FFD700;
+            --modern-gray: #333333;
+            --light-gray: #F8F9FA;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--modern-gray);
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #004A7C 100%);
+        }
+        
+        .section-padding {
+            padding: 80px 0;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .animate-fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            background: var(--primary-blue);
+            border: 4px solid white;
+            border-radius: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0 0 0 4px var(--primary-blue);
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-3">
+                        <i class="fas fa-microchip text-white text-xl"></i>
+                    </div>
+                    <span class="text-xl font-bold text-gray-800">MEKONG Tech Hub</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#overview" class="text-gray-700 hover:text-blue-600 transition">Tổng quan</a>
+                    <a href="#vision" class="text-gray-700 hover:text-blue-600 transition">Tầm nhìn</a>
+                    <a href="#investment" class="text-gray-700 hover:text-blue-600 transition">Đầu tư</a>
+                    <a href="#technology" class="text-gray-700 hover:text-blue-600 transition">Công nghệ</a>
+                    <a href="#roadmap" class="text-gray-700 hover:text-blue-600 transition">Lộ trình</a>
+                    <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">Liên hệ</a>
+                </div>
+                <button class="md:hidden">
+                    <i class="fas fa-bars text-gray-700 text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white pt-24 pb-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center animate-fade-in">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                    KHU LIÊN HỢP SẢN XUẤT<br>
+                    <span class="text-yellow-400">CÔNG NGHỆ CAO MEKONG</span>
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
+                    Dự án đầu tư 10 triệu USD - 50 năm phát triển bền vững<br>
+                    Tiên phong sản xuất thiết bị IoT, Robot AMR, AI tại Việt Nam & ASEAN
+                </p>
+                <div class="flex flex-col md:flex-row gap-4 justify-center">
+                    <a href="#overview" class="bg-yellow-400 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition text-lg">
+                        <i class="fas fa-play mr-2"></i>Khám phá dự án
+                    </a>
+                    <a href="#investment" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition text-lg">
+                        <i class="fas fa-chart-line mr-2"></i>Thông tin đầu tư
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="animate-fade-in">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">10M</div>
+                    <div class="text-gray-600">USD Tổng vốn đầu tư</div>
+                </div>
+                <div class="animate-fade-in">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">50</div>
+                    <div class="text-gray-600">Năm phát triển</div>
+                </div>
+                <div class="animate-fade-in">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">300</div>
+                    <div class="text-gray-600">Việc làm trực tiếp</div>
+                </div>
+                <div class="animate-fade-in">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">950</div>
+                    <div class="text-gray-600">Việc làm gián tiếp</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="section-padding">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Tổng quan dự án</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Khu Liên hợp sản xuất công nghệ cao MEKONG là dự án tiên phong tại Việt Nam, 
+                    tập trung sản xuất các thiết bị công nghệ cao phục vụ chuyển đổi số và tự động hóa.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-map-marker-alt text-blue-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Vị trí chiến lược</h3>
+                            <p class="text-gray-600">Đặt tại vùng đồng bằng sông Mekong, kết nối thuận lợi với các thị trường ASEAN</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-industry text-blue-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Quy mô sản xuất</h3>
+                            <p class="text-gray-600">Nhà máy hiện đại 20.000m², công suất 15.000+ thiết bị/năm</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-users text-blue-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Đội ngũ chuyên gia</h3>
+                            <p class="text-gray-600">300 nhân viên, 42.5% kỹ sư, 15% thạc sĩ/tiến sĩ</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-2xl">
+                    <canvas id="overviewChart" width="400" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="section-padding bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Tầm nhìn - Sứ mệnh - Giá trị</h2>
+                <p class="text-xl text-gray-600">"Make in Vietnam – Make for ASEAN"</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center card-hover bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-eye text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Tầm nhìn</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Trở thành nhà sản xuất thiết bị IoT, Robot AMR dẫn đầu khu vực ASEAN, 
+                        góp phần thúc đẩy chuyển đổi số và tự động hóa.
+                    </p>
+                </div>
+                
+                <div class="text-center card-hover bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-bullseye text-yellow-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Sứ mệnh</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Phát triển và sản xuất các giải pháp công nghệ cao chất lượng, 
+                        đáp ứng nhu cầu chuyển đổi số của doanh nghiệp và xã hội.
+                    </p>
+                </div>
+                
+                <div class="text-center card-hover bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-heart text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Giá trị</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Đổi mới sáng tạo, chất lượng vượt trội, phát triển bền vững, 
+                        trách nhiệm với cộng đồng và môi trường.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Phases Section -->
+    <section id="investment" class="section-padding">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Quy mô và Giai đoạn đầu tư</h2>
+                <p class="text-xl text-gray-600">Kế hoạch đầu tư 4 giai đoạn trong 50 năm</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-gradient-to-b from-blue-50 to-blue-100 p-6 rounded-2xl card-hover">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">2025-2030</div>
+                        <div class="text-lg font-semibold mb-3">Giai đoạn 1</div>
+                        <div class="text-2xl font-bold text-gray-900 mb-2">$3M</div>
+                        <div class="text-sm text-gray-600 mb-4">60% tổng vốn</div>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• Xây dựng hạ tầng</li>
+                            <li>• Lắp đặt thiết bị</li>
+                            <li>• Tuyển dụng đội ngũ</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-b from-green-50 to-green-100 p-6 rounded-2xl card-hover">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green-600 mb-2">2030-2040</div>
+                        <div class="text-lg font-semibold mb-3">Giai đoạn 2</div>
+                        <div class="text-2xl font-bold text-gray-900 mb-2">$1.25M</div>
+                        <div class="text-sm text-gray-600 mb-4">25% tổng vốn</div>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• Mở rộng sản xuất</li>
+                            <li>• Phát triển sản phẩm</li>
+                            <li>• Tăng trưởng thị trường</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-b from-yellow-50 to-yellow-100 p-6 rounded-2xl card-hover">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-yellow-600 mb-2">2040-2060</div>
+                        <div class="text-lg font-semibold mb-3">Giai đoạn 3</div>
+                        <div class="text-2xl font-bold text-gray-900 mb-2">$0.5M</div>
+                        <div class="text-sm text-gray-600 mb-4">10% tổng vốn</div>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• Dẫn đầu khu vực</li>
+                            <li>• Xuất khẩu mạnh</li>
+                            <li>• Đổi mới công nghệ</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-b from-purple-50 to-purple-100 p-6 rounded-2xl card-hover">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">2060-2075</div>
+                        <div class="text-lg font-semibold mb-3">Giai đoạn 4</div>
+                        <div class="text-2xl font-bold text-gray-900 mb-2">$0.25M</div>
+                        <div class="text-sm text-gray-600 mb-4">5% tổng vốn</div>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• Duy trì vị thế</li>
+                            <li>• Phát triển bền vững</li>
+                            <li>• Công nghệ tiên tiến</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Financial Chart -->
+            <div class="mt-16 bg-white p-8 rounded-2xl shadow-lg">
+                <h3 class="text-2xl font-bold text-center mb-8">Dự báo doanh thu và lợi nhuận</h3>
+                <canvas id="financialChart" width="800" height="400"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="section-padding bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Công nghệ và sản phẩm chủ lực</h2>
+                <p class="text-xl text-gray-600">Tập trung vào 3 nhóm sản phẩm công nghệ cao</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+                    <div class="text-center mb-6">
+                        <div class="w-20 h-20 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-wifi text-blue-600 text-3xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">IoT Gateway</h3>
+                        <p class="text-gray-600 mt-2">Cổng kết nối thông minh</p>
+                    </div>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Kết nối đa giao thức</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Xử lý edge computing</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Bảo mật cao cấp</span>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="text-lg font-bold text-blue-600">5,000 thiết bị/năm</div>
+                        <div class="text-sm text-gray-500">Công suất dự kiến 2030</div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+                    <div class="text-center mb-6">
+                        <div class="w-20 h-20 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-robot text-green-600 text-3xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">Robot AMR</h3>
+                        <p class="text-gray-600 mt-2">Robot di chuyển tự động</p>
+                    </div>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Tự dẫn đường thông minh</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Tích hợp AI/ML</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Vận hành 24/7</span>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="text-lg font-bold text-green-600">300 robot/năm</div>
+                        <div class="text-sm text-gray-500">Công suất dự kiến 2030</div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+                    <div class="text-center mb-6">
+                        <div class="w-20 h-20 bg-yellow-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-microchip text-yellow-600 text-3xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">Cảm biến IoT</h3>
+                        <p class="text-gray-600 mt-2">Cảm biến thông minh đa dụng</p>
+                    </div>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Độ chính xác cao</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Tiết kiệm năng lượng</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Kết nối không dây</span>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="text-lg font-bold text-yellow-600">10,000 thiết bị/năm</div>
+                        <div class="text-sm text-gray-500">Công suất dự kiến 2030</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Technology Roadmap -->
+            <div class="mt-16">
+                <h3 class="text-3xl font-bold text-center mb-12 text-gray-900">Lộ trình công nghệ</h3>
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <canvas id="techRoadmapChart" width="800" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Position Section -->
+    <section class="section-padding">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Định vị thị trường và lợi thế cạnh tranh</h2>
+                <p class="text-xl text-gray-600">Chiếm lĩnh thị trường IoT và Robot tại Việt Nam & ASEAN</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Lợi thế cạnh tranh</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-map-marker-alt text-white text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Vị trí địa lý thuận lợi</h4>
+                                <p class="text-gray-600">Trung tâm ASEAN, gần cảng biển, kết nối giao thông tốt</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-dollar-sign text-white text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Chi phí cạnh tranh</h4>
+                                <p class="text-gray-600">Nhân công chất lượng với chi phí hợp lý, chính sách ưu đãi</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-yellow-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-graduation-cap text-white text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Nguồn nhân lực chất lượng</h4>
+                                <p class="text-gray-600">Hợp tác với các đại học, đào tạo kỹ sư chuyên sâu</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-rocket text-white text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Đổi mới sáng tạo</h4>
+                                <p class="text-gray-600">R&D 4-8% doanh thu, sáng chế, chuyển giao công nghệ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-2xl">
+                    <h3 class="text-xl font-bold text-center mb-6 text-gray-900">Thị phần mục tiêu 2030</h3>
+                    <canvas id="marketShareChart" width="400" height="400"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manufacturing Model Section -->
+    <section class="section-padding bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Mô hình nhà máy và tổ chức sản xuất</h2>
+                <p class="text-xl text-gray-600">Nhà máy thông minh theo tiêu chuẩn Industry 4.0</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+                <div class="bg-white p-6 rounded-2xl shadow-lg text-center card-hover">
+                    <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-industry text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">Diện tích</h3>
+                    <p class="text-3xl font-bold text-blue-600 mb-1">20,000</p>
+                    <p class="text-gray-600">m² nhà máy</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-2xl shadow-lg text-center card-hover">
+                    <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-cogs text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">Dây chuyền</h3>
+                    <p class="text-3xl font-bold text-green-600 mb-1">12</p>
+                    <p class="text-gray-600">dây chuyền tự động</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-2xl shadow-lg text-center card-hover">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-certificate text-yellow-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">Chứng nhận</h3>
+                    <p class="text-3xl font-bold text-yellow-600 mb-1">ISO</p>
+                    <p class="text-gray-600">9001, 14001, 45001</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-2xl shadow-lg text-center card-hover">
+                    <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-chart-line text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">Hiệu suất</h3>
+                    <p class="text-3xl font-bold text-purple-600 mb-1">98%</p>
+                    <p class="text-gray-600">chất lượng đạt chuẩn</p>
+                </div>
+            </div>
+            
+            <!-- Organization Chart -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 class="text-2xl font-bold text-center mb-8 text-gray-900">Cơ cấu tổ chức</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-user-tie text-blue-600 text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-900 mb-2">Ban Điều hành</h4>
+                        <p class="text-gray-600 text-sm">CEO, CTO, CFO, COO</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-users text-green-600 text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-900 mb-2">Phòng ban chức năng</h4>
+                        <p class="text-gray-600 text-sm">R&D, Sản xuất, QC, Marketing</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-hard-hat text-yellow-600 text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-900 mb-2">Nhân viên sản xuất</h4>
+                        <p class="text-gray-600 text-sm">Kỹ thuật viên, Công nhân</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Impact Section -->
+    <section class="section-padding">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Tác động xã hội và chính sách ưu đãi</h2>
+                <p class="text-xl text-gray-600">Cam kết phát triển bền vững và đóng góp cho cộng đồng</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Tác động xã hội</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-briefcase text-green-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Tạo việc làm</h4>
+                                <p class="text-gray-600">300 việc làm trực tiếp + 650 việc làm gián tiếp</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-graduation-cap text-blue-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Đào tạo nhân lực</h4>
+                                <p class="text-gray-600">2,000 kỹ thuật viên, 50 học bổng/năm</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-leaf text-yellow-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Net Zero 2050</h4>
+                                <p class="text-gray-600">Cam kết trung hòa carbon, kinh tế tuần hoàn</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-handshake text-purple-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Hỗ trợ SME</h4>
+                                <p class="text-gray-600">100 doanh nghiệp vừa và nhỏ, 50 startup</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Chính sách ưu đãi</h3>
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-2xl">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-700">Thuế TNDN</span>
+                                <span class="font-bold text-blue-600">10% trong 15 năm</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-700">Miễn thuế</span>
+                                <span class="font-bold text-green-600">4 năm đầu</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-700">Chi phí R&D</span>
+                                <span class="font-bold text-purple-600">Khấu trừ 200%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-700">Thuế nhập khẩu</span>
+                                <span class="font-bold text-yellow-600">0% thiết bị</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6">
+                        <h4 class="font-bold text-gray-900 mb-3">Tổng đóng góp thuế dự kiến</h4>
+                        <div class="text-3xl font-bold text-blue-600">$40M</div>
+                        <div class="text-gray-600">trong 15 năm đầu</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="section-padding bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Lộ trình phát triển 50 năm</h2>
+                <p class="text-xl text-gray-600">Từ khởi động đến dẫn đầu khu vực ASEAN</p>
+            </div>
+            
+            <!-- Timeline -->
+            <div class="relative">
+                <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-200"></div>
+                
+                <div class="space-y-16">
+                    <div class="relative flex items-center">
+                        <div class="timeline-item w-1/2 pr-8 text-right">
+                            <div class="bg-white p-6 rounded-2xl shadow-lg card-hover">
+                                <h3 class="text-xl font-bold text-blue-600 mb-2">2025-2030: Khởi động</h3>
+                                <p class="text-gray-600 mb-3">Thiết lập nền tảng và thương hiệu</p>
+                                <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Xây dựng nhà máy</li>
+                                    <li>• Ra mắt sản phẩm đầu tiên</li>
+                                    <li>• Chiếm 2% thị trường Việt Nam</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-1/2"></div>
+                    </div>
+                    
+                    <div class="relative flex items-center">
+                        <div class="w-1/2"></div>
+                        <div class="timeline-item w-1/2 pl-8">
+                            <div class="bg-white p-6 rounded-2xl shadow-lg card-hover">
+                                <h3 class="text-xl font-bold text-green-600 mb-2">2030-2040: Tăng trưởng</h3>
+                                <p class="text-gray-600 mb-3">Mở rộng quy mô và thị trường</p>
+                                <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Mở rộng năng lực sản xuất</li>
+                                    <li>• Xuất khẩu sang ASEAN</li>
+                                    <li>• 5% thị phần IoT Việt Nam</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="relative flex items-center">
+                        <div class="timeline-item w-1/2 pr-8 text-right">
+                            <div class="bg-white p-6 rounded-2xl shadow-lg card-hover">
+                                <h3 class="text-xl font-bold text-yellow-600 mb-2">2040-2060: Dẫn đầu</h3>
+                                <p class="text-gray-600 mb-3">Đạt vị thế dẫn đầu khu vực</p>
+                                <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Top 3 ASEAN trong IoT</li>
+                                    <li>• 20% doanh thu từ xuất khẩu</li>
+                                    <li>• Đầu tư R&D tiên tiến</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-1/2"></div>
+                    </div>
+                    
+                    <div class="relative flex items-center">
+                        <div class="w-1/2"></div>
+                        <div class="timeline-item w-1/2 pl-8">
+                            <div class="bg-white p-6 rounded-2xl shadow-lg card-hover">
+                                <h3 class="text-xl font-bold text-purple-600 mb-2">2060-2075: Bền vững</h3>
+                                <p class="text-gray-600 mb-3">Duy trì và phát triển bền vững</p>
+                                <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Công nghệ AI thế hệ mới</li>
+                                    <li>• Net Zero đạt được</li>
+                                    <li>• Trung tâm R&D khu vực</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Milestones Chart -->
+            <div class="mt-16 bg-white p-8 rounded-2xl shadow-lg">
+                <h3 class="text-2xl font-bold text-center mb-8 text-gray-900">Các mốc quan trọng</h3>
+                <canvas id="milestonesChart" width="800" height="300"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding hero-gradient text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Liên hệ và Đầu tư</h2>
+                <p class="text-xl">Cùng chúng tôi xây dựng tương lai công nghệ cao tại Việt Nam</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Thông tin liên hệ</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Địa chỉ</h4>
+                                <p class="text-blue-100">Khu Công nghệ cao, TP. Cần Thơ, Việt Nam</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-phone text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Điện thoại</h4>
+                                <p class="text-blue-100">+84 292 123 4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-envelope text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Email</h4>
+                                <p class="text-blue-100">invest@mekongtech.vn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-6">Đăng ký nhận thông tin</h3>
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Họ và tên" class="w-full p-4 rounded-lg bg-white/20 border border-white/30 text-white placeholder-blue-100">
+                        <input type="email" placeholder="Email" class="w-full p-4 rounded-lg bg-white/20 border border-white/30 text-white placeholder-blue-100">
+                        <input type="tel" placeholder="Số điện thoại" class="w-full p-4 rounded-lg bg-white/20 border border-white/30 text-white placeholder-blue-100">
+                        <textarea placeholder="Nội dung quan tâm" rows="4" class="w-full p-4 rounded-lg bg-white/20 border border-white/30 text-white placeholder-blue-100"></textarea>
+                        <button type="submit" class="w-full bg-yellow-400 text-gray-900 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition">
+                            <i class="fas fa-paper-plane mr-2"></i>Gửi thông tin
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center mr-3">
+                            <i class="fas fa-microchip text-white"></i>
+                        </div>
+                        <span class="text-xl font-bold">MEKONG Tech Hub</span>
+                    </div>
+                    <p class="text-gray-400">Khu Liên hợp sản xuất công nghệ cao MEKONG - Dẫn đầu tương lai</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Dự án</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#overview" class="hover:text-white transition">Tổng quan</a></li>
+                        <li><a href="#investment" class="hover:text-white transition">Đầu tư</a></li>
+                        <li><a href="#technology" class="hover:text-white transition">Công nghệ</a></li>
+                        <li><a href="#roadmap" class="hover:text-white transition">Lộ trình</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Sản phẩm</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition">IoT Gateway</a></li>
+                        <li><a href="#" class="hover:text-white transition">Robot AMR</a></li>
+                        <li><a href="#" class="hover:text-white transition">Cảm biến IoT</a></li>
+                        <li><a href="#" class="hover:text-white transition">Giải pháp AI</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Kết nối</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 MEKONG Tech Hub. All rights reserved. | Thiết kế bởi MEKONG Development Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Charts Scripts -->
+    <script>
+        // Overview Chart
+        const overviewCtx = document.getElementById('overviewChart').getContext('2d');
+        new Chart(overviewCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['IoT Gateway', 'Robot AMR', 'Cảm biến IoT'],
+                datasets: [{
+                    data: [60, 25, 15],
+                    backgroundColor: ['#0072C6', '#10B981', '#FFD700'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            padding: 20,
+                            font: {
+                                size: 14
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Financial Chart
+        const financialCtx = document.getElementById('financialChart').getContext('2d');
+        new Chart(financialCtx, {
+            type: 'line',
+            data: {
+                labels: ['2025', '2027', '2030', '2035', '2040', '2045', '2050'],
+                datasets: [{
+                    label: 'Doanh thu (triệu USD)',
+                    data: [0, 2.8, 7.6, 15, 25, 35, 45],
+                    borderColor: '#0072C6',
+                    backgroundColor: 'rgba(0, 114, 198, 0.1)',
+                    fill: true,
+                    tension: 0.4
+                }, {
+                    label: 'Lợi nhuận (triệu USD)',
+                    data: [0, 0.3, 1.5, 4.5, 8.5, 12.5, 16.5],
+                    borderColor: '#10B981',
+                    backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Triệu USD'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'top'
+                    }
+                }
+            }
+        });
+
+        // Technology Roadmap Chart
+        const techCtx = document.getElementById('techRoadmapChart').getContext('2d');
+        new Chart(techCtx, {
+            type: 'bar',
+            data: {
+                labels: ['2025-2027', '2028-2030', '2031-2035', '2036-2040', '2041-2050'],
+                datasets: [{
+                    label: 'Cơ bản',
+                    data: [100, 80, 60, 40, 20],
+                    backgroundColor: '#E5E7EB'
+                }, {
+                    label: 'Nâng cao',
+                    data: [0, 20, 40, 60, 50],
+                    backgroundColor: '#0072C6'
+                }, {
+                    label: 'AI/ML',
+                    data: [0, 0, 20, 40, 60],
+                    backgroundColor: '#10B981'
+                }, {
+                    label: 'Tiên tiến',
+                    data: [0, 0, 0, 20, 40],
+                    backgroundColor: '#FFD700'
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        stacked: true
+                    },
+                    y: {
+                        stacked: true,
+                        max: 100,
+                        title: {
+                            display: true,
+                            text: 'Tỷ lệ (%)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Market Share Chart
+        const marketCtx = document.getElementById('marketShareChart').getContext('2d');
+        new Chart(marketCtx, {
+            type: 'pie',
+            data: {
+                labels: ['MEKONG Tech Hub', 'Đối thủ 1', 'Đối thủ 2', 'Khác'],
+                datasets: [{
+                    data: [5, 15, 20, 60],
+                    backgroundColor: ['#0072C6', '#10B981', '#FFD700', '#E5E7EB'],
+                    borderWidth: 2,
+                    borderColor: '#fff'
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }
+        });
+
+        // Milestones Chart
+        const milestonesCtx = document.getElementById('milestonesChart').getContext('2d');
+        new Chart(milestonesCtx, {
+            type: 'line',
+            data: {
+                labels: ['2025', '2030', '2035', '2040', '2045', '2050', '2055', '2060', '2065', '2070', '2075'],
+                datasets: [{
+                    label: 'Số lượng sản phẩm (nghìn)',
+                    data: [1, 5, 12, 20, 28, 35, 40, 45, 48, 50, 52],
+                    borderColor: '#0072C6',
+                    backgroundColor: 'rgba(0, 114, 198, 0.1)',
+                    fill: true,
+                    tension: 0.4
+                }, {
+                    label: 'Số nhân viên (trăm)',
+                    data: [0.6, 1.5, 2.2, 2.8, 3.2, 3.5, 3.8, 4.0, 4.2, 4.3, 4.5],
+                    borderColor: '#10B981',
+                    backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'top'
+                    }
+                }
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html> 
