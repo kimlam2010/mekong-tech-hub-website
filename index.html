@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khu Liên hợp sản xuất công nghệ cao MEKONG | Dự án đầu tư 5 triệu USD</title>
-    <meta name="description" content="Dự án đầu tư xây dựng khu liên hợp sản xuất công nghệ cao MEKONG - 50 năm phát triển bền vững, IoT Gateway, Robot AMR, Cảm biến thông minh">
+    <title>Khu Liên hợp sản xuất công nghệ cao MEKONG | Dự án đầu tư 10 triệu USD</title>
+    <meta name="description" content="Dự án đầu tư xây dựng khu liên hợp sản xuất công nghệ cao MEKONG - 10 triệu USD/50 năm, thiết bị IoT công nghiệp, Robot AMR, Dịch vụ tích hợp">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -64,6 +64,10 @@
             background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
             border-left: 4px solid var(--primary-blue);
         }
+
+        .storytelling-bg {
+            background: linear-gradient(rgba(0,114,198,0.9), rgba(0,74,124,0.9)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grid)"/></svg>');
+        }
     </style>
 </head>
 <body class="bg-white">
@@ -78,10 +82,11 @@
                     <span class="text-xl font-bold text-gray-800">MEKONG Tech Hub</span>
                 </div>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#overview" class="text-gray-700 hover:text-blue-600 transition">Tổng quan</a>
+                    <a href="#story" class="text-gray-700 hover:text-blue-600 transition">Khởi nguồn</a>
                     <a href="#vision" class="text-gray-700 hover:text-blue-600 transition">Tầm nhìn</a>
-                    <a href="#investment" class="text-gray-700 hover:text-blue-600 transition">Đầu tư</a>
-                    <a href="#technology" class="text-gray-700 hover:text-blue-600 transition">Công nghệ</a>
+                    <a href="#opportunity" class="text-gray-700 hover:text-blue-600 transition">Cơ hội</a>
+                    <a href="#products" class="text-gray-700 hover:text-blue-600 transition">Sản phẩm</a>
+                    <a href="#financials" class="text-gray-700 hover:text-blue-600 transition">Tài chính</a>
                     <a href="#roadmap" class="text-gray-700 hover:text-blue-600 transition">Lộ trình</a>
                     <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">Liên hệ</a>
                 </div>
@@ -92,186 +97,215 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero-gradient text-white pt-24 pb-16">
+    <!-- Hero Section với Storytelling -->
+    <section id="story" class="storytelling-bg text-white pt-24 pb-16">
         <div class="container mx-auto px-6">
             <div class="text-center animate-fade-in">
+                <div class="mb-6">
+                    <span class="inline-block bg-yellow-400 text-gray-900 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                        🚀 Câu chuyện khởi nguồn • Founder Story
+                    </span>
+                </div>
                 <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
                     KHU LIÊN HỢP SẢN XUẤT<br>
                     <span class="text-yellow-400">CÔNG NGHỆ CAO MEKONG</span>
                 </h1>
-                <p class="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
-                    Dự án đầu tư 5 triệu USD - 50 năm phát triển bền vững<br>
-                    Tiên phong sản xuất IoT Gateway, Robot AMR, Cảm biến thông minh tại KCN Cao TP.HCM
-                </p>
+                <div class="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
+                    <p class="mb-4">
+                        "Từ ý tưởng tạo ra những sản phẩm công nghệ 'Made in Vietnam' cho thế giới"
+                    </p>
+                    <p class="text-lg text-blue-100">
+                        Dự án đầu tư <strong>10 triệu USD (250 tỷ VNĐ)</strong> - 50 năm phát triển bền vững<br>
+                        Tiên phong sản xuất thiết bị IoT công nghiệp, Robot AMR tại KCN Cao TP.HCM
+                    </p>
+                </div>
+                
+                <!-- Hero KPIs -->
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 text-center">
                     <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                         <div class="text-2xl font-bold text-yellow-400">IRR 18.5%</div>
-                        <div class="text-sm">Tỷ suất hoàn vốn</div>
+                        <div class="text-sm">Internal Rate of Return</div>
                     </div>
                     <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                         <div class="text-2xl font-bold text-yellow-400">NPV 85 tỷ</div>
-                        <div class="text-sm">Giá trị hiện tại ròng</div>
+                        <div class="text-sm">Net Present Value (VNĐ)</div>
                     </div>
                     <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                         <div class="text-2xl font-bold text-yellow-400">7.5 năm</div>
-                        <div class="text-sm">Thời gian hoàn vốn</div>
+                        <div class="text-sm">Payback Period</div>
                     </div>
                     <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                         <div class="text-2xl font-bold text-yellow-400">200 người</div>
                         <div class="text-sm">Nhân sự tối đa</div>
                     </div>
                 </div>
+                
                 <div class="flex flex-col md:flex-row gap-4 justify-center">
-                    <a href="#overview" class="bg-yellow-400 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition text-lg">
-                        <i class="fas fa-play mr-2"></i>Khám phá dự án
+                    <a href="#vision" class="bg-yellow-400 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition text-lg">
+                        <i class="fas fa-play mr-2"></i>Khám phá tầm nhìn
                     </a>
-                    <a href="#investment" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition text-lg">
-                        <i class="fas fa-chart-line mr-2"></i>Thông tin đầu tư
+                    <a href="#financials" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition text-lg">
+                        <i class="fas fa-chart-line mr-2"></i>Xem số liệu đầu tư
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Executive KPIs -->
-    <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">KPI Dashboard - Chỉ số quan trọng</h2>
-                <p class="text-gray-600">Các chỉ số tài chính và hiệu quả đầu tư dự kiến</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="kpi-card p-6 rounded-xl shadow-lg">
-                    <div class="flex items-center justify-between mb-4">
-                        <h3 class="text-lg font-semibold text-gray-700">Doanh thu 2030</h3>
-                        <i class="fas fa-chart-line text-blue-600 text-xl"></i>
-                    </div>
-                    <div class="text-3xl font-bold text-blue-600 mb-2">7.6M USD</div>
-                    <div class="text-sm text-gray-500">≈ 190 tỷ VNĐ</div>
-                </div>
-                
-                <div class="kpi-card p-6 rounded-xl shadow-lg">
-                    <div class="flex items-center justify-between mb-4">
-                        <h3 class="text-lg font-semibold text-gray-700">EBITDA Margin</h3>
-                        <i class="fas fa-percentage text-green-600 text-xl"></i>
-                    </div>
-                    <div class="text-3xl font-bold text-green-600 mb-2">15.2%</div>
-                    <div class="text-sm text-gray-500">Năm 2030</div>
-                </div>
-                
-                <div class="kpi-card p-6 rounded-xl shadow-lg">
-                    <div class="flex items-center justify-between mb-4">
-                        <h3 class="text-lg font-semibold text-gray-700">Thị phần IoT</h3>
-                        <i class="fas fa-target text-yellow-600 text-xl"></i>
-                    </div>
-                    <div class="text-3xl font-bold text-yellow-600 mb-2">8%</div>
-                    <div class="text-sm text-gray-500">Việt Nam 2030</div>
-                </div>
-                
-                <div class="kpi-card p-6 rounded-xl shadow-lg">
-                    <div class="flex items-center justify-between mb-4">
-                        <h3 class="text-lg font-semibold text-gray-700">Việc làm</h3>
-                        <i class="fas fa-users text-purple-600 text-xl"></i>
-                    </div>
-                    <div class="text-3xl font-bold text-purple-600 mb-2">950</div>
-                    <div class="text-sm text-gray-500">Trực tiếp + gián tiếp</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Overview Section -->
-    <section id="overview" class="section-padding">
+    <!-- Vision, Mission, Values -->
+    <section id="vision" class="section-padding bg-gray-50">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">Tổng quan dự án</h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Khu Liên hợp sản xuất công nghệ cao MEKONG tại KCN Cao TP.HCM, 
-                    chuyên sản xuất IoT Gateway, Robot AMR và Cảm biến thông minh phục vụ chuyển đổi số.
-                </p>
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                    Tầm nhìn - Sứ mệnh - Giá trị cốt lõi
+                    <span class="block text-xl text-gray-600 mt-2">Vision • Mission • Core Values</span>
+                </h2>
+                <p class="text-xl text-gray-600">"Make in Vietnam – Made for ASEAN"</p>
             </div>
             
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div class="space-y-6">
-                    <div class="flex items-start space-x-4">
-                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-map-marker-alt text-blue-600 text-xl"></i>
-                        </div>
-                        <div>
-                            <h3 class="text-xl font-semibold mb-2">Vị trí chiến lược</h3>
-                            <p class="text-gray-600">KCN Cao TP.HCM, P.Long Thạnh Mỹ, TP Thủ Đức - kết nối thuận lợi với cảng và sân bay</p>
-                        </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center card-hover bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-eye text-blue-600 text-2xl"></i>
                     </div>
-                    
-                    <div class="flex items-start space-x-4">
-                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-industry text-blue-600 text-xl"></i>
-                        </div>
-                        <div>
-                            <h3 class="text-xl font-semibold mb-2">Quy mô sản xuất</h3>
-                            <p class="text-gray-600">Diện tích 10.040 m², giai đoạn 1: 4.500 m² (bao gồm nhà máy Tohin)</p>
-                        </div>
-                    </div>
-                    
-                    <div class="flex items-start space-x-4">
-                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-users text-blue-600 text-xl"></i>
-                        </div>
-                        <div>
-                            <h3 class="text-xl font-semibold mb-2">Đội ngũ chuyên gia</h3>
-                            <p class="text-gray-600">200 nhân viên tối đa, 80% trình độ đại học+, 25 kỹ sư R&D</p>
-                        </div>
-                    </div>
-
-                    <div class="flex items-start space-x-4">
-                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-handshake text-blue-600 text-xl"></i>
-                        </div>
-                        <div>
-                            <h3 class="text-xl font-semibold mb-2">Mua lại nhà máy Tohin</h3>
-                            <p class="text-gray-600">Tiết kiệm 1.7 tỷ VNĐ chi phí xây dựng, rút ngắn 12 tháng triển khai</p>
-                        </div>
-                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Tầm nhìn 2075</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Trở thành nhà sản xuất thiết bị IoT công nghiệp, Robot AMR dẫn đầu khu vực ASEAN, 
+                        góp phần thúc đẩy chuyển đổi số và tự động hóa.
+                    </p>
                 </div>
                 
-                <div class="bg-gray-50 p-8 rounded-2xl">
-                    <canvas id="overviewChart" width="400" height="300"></canvas>
+                <div class="text-center card-hover bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-bullseye text-yellow-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Sứ mệnh</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Phát triển và sản xuất các giải pháp công nghệ cao chất lượng, 
+                        đáp ứng nhu cầu chuyển đổi số của doanh nghiệp và xã hội Việt Nam.
+                    </p>
+                </div>
+                
+                <div class="text-center card-hover bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-heart text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Giá trị cốt lõi</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Đổi mới sáng tạo, chất lượng vượt trội, phát triển bền vững, 
+                        trách nhiệm với cộng đồng và môi trường.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Product Portfolio Section -->
-    <section id="technology" class="section-padding bg-gray-50">
+    <!-- Market Opportunity -->
+    <section id="opportunity" class="section-padding">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">Portfolio sản phẩm và dịch vụ</h2>
-                <p class="text-xl text-gray-600">4 nhóm sản phẩm chính với chiến lược "Tốt - Khá - Xuất sắc"</p>
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                    Cơ hội thị trường & Động lực phát triển
+                    <span class="block text-xl text-gray-600 mt-2">Market Opportunity & Growth Drivers</span>
+                </h2>
+                <p class="text-xl text-gray-600">Thị trường IoT & Robot tăng trưởng mạnh tại Việt Nam & ASEAN</p>
             </div>
             
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-                <div class="bg-white p-6 rounded-2xl shadow-lg card-hover">
-                    <div class="text-center mb-6">
-                        <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                            <i class="fas fa-wifi text-blue-600 text-2xl"></i>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-900">IoT Gateway</h3>
-                        <p class="text-gray-600 mt-2">Cổng kết nối thông minh</p>
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-2xl text-center">
+                    <div class="text-3xl font-bold text-blue-600 mb-2">23.5%</div>
+                    <div class="text-sm text-gray-700">CAGR IoT Việt Nam</div>
+                    <div class="text-xs text-gray-500">2025-2030</div>
+                </div>
+                
+                <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-2xl text-center">
+                    <div class="text-3xl font-bold text-green-600 mb-2">35.2%</div>
+                    <div class="text-sm text-gray-700">CAGR Robot AMR</div>
+                    <div class="text-xs text-gray-500">2025-2030</div>
+                </div>
+                
+                <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-2xl text-center">
+                    <div class="text-3xl font-bold text-yellow-600 mb-2">$3.2B</div>
+                    <div class="text-sm text-gray-700">Thị trường IoT VN</div>
+                    <div class="text-xs text-gray-500">Dự báo 2028</div>
+                </div>
+                
+                <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-2xl text-center">
+                    <div class="text-3xl font-bold text-purple-600 mb-2">8%</div>
+                    <div class="text-sm text-gray-700">Thị phần mục tiêu</div>
+                    <div class="text-xs text-gray-500">IoT VN năm 2030</div>
+                </div>
+            </div>
+
+            <!-- Market Benchmark -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 class="text-2xl font-bold text-center mb-8 text-gray-900">
+                    Benchmark quốc tế • International Comparison
+                </h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center p-4 border rounded-xl">
+                        <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='40' viewBox='0 0 60 40'><rect width='60' height='40' fill='%23FF0000'/><rect y='20' width='60' height='20' fill='%23FFFFFF'/></svg>" alt="Malaysia Flag" class="w-12 h-8 mx-auto mb-2">
+                        <h4 class="font-bold">Malaysia</h4>
+                        <p class="text-sm text-gray-600">Penang Automation Cluster</p>
+                        <p class="text-xs">12M USD, 250 nhân sự</p>
                     </div>
                     
-                    <div class="space-y-2 mb-6 text-sm">
-                        <div class="flex justify-between">
-                            <span>MK-100 Basic</span>
-                            <span class="font-semibold">12-18M VNĐ</span>
+                    <div class="text-center p-4 border rounded-xl">
+                        <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='40' viewBox='0 0 60 40'><rect width='60' height='40' fill='%23FF0000'/><rect y='13.33' width='60' height='13.33' fill='%23FFFFFF'/><rect y='26.67' width='60' height='13.33' fill='%23FF0000'/></svg>" alt="Thailand Flag" class="w-12 h-8 mx-auto mb-2">
+                        <h4 class="font-bold">Thailand</h4>
+                        <p class="text-sm text-gray-600">Eastern Economic Corridor</p>
+                        <p class="text-xs">15M USD, 300 nhân sự</p>
+                    </div>
+                    
+                    <div class="text-center p-4 border rounded-xl">
+                        <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='40' viewBox='0 0 60 40'><rect width='60' height='20' fill='%23FF0000'/><rect y='20' width='60' height='20' fill='%23FFFFFF'/></svg>" alt="Singapore Flag" class="w-12 h-8 mx-auto mb-2">
+                        <h4 class="font-bold">Singapore</h4>
+                        <p class="text-sm text-gray-600">Smart Nation Initiative</p>
+                        <p class="text-xs">20M USD, 180 nhân sự</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products & Technology -->
+    <section id="products" class="section-padding bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                    Sản phẩm chủ lực & Lộ trình công nghệ
+                    <span class="block text-xl text-gray-600 mt-2">Core Products & Technology Roadmap</span>
+                </h2>
+                <p class="text-xl text-gray-600">Chiến lược 3 nhóm sản phẩm với công nghệ lõi tiên tiến</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- IoT Gateway -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+                    <div class="text-center mb-6">
+                        <div class="w-20 h-20 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-microchip text-blue-600 text-3xl"></i>
                         </div>
-                        <div class="flex justify-between">
-                            <span>MK-200 Pro</span>
-                            <span class="font-semibold">25-45M VNĐ</span>
+                        <h3 class="text-2xl font-bold text-gray-900">IoT Gateway</h3>
+                        <p class="text-gray-600 mt-2">Cổng kết nối công nghiệp thông minh</p>
+                    </div>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">ARM Cortex-A55/A78 processor</span>
                         </div>
-                        <div class="flex justify-between">
-                            <span>MK-300 Enterprise</span>
-                            <span class="font-semibold">55-95M VNĐ</span>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Edge AI computing capability</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Multi-protocol connectivity</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Hardware-based security</span>
                         </div>
                     </div>
                     
@@ -281,27 +315,32 @@
                     </div>
                 </div>
                 
-                <div class="bg-white p-6 rounded-2xl shadow-lg card-hover">
+                <!-- Robot AMR -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
                     <div class="text-center mb-6">
-                        <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                            <i class="fas fa-robot text-green-600 text-2xl"></i>
+                        <div class="w-20 h-20 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-robot text-green-600 text-3xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-900">Robot AMR</h3>
+                        <h3 class="text-2xl font-bold text-gray-900">Robot AMR</h3>
                         <p class="text-gray-600 mt-2">Robot di chuyển tự động</p>
                     </div>
                     
-                    <div class="space-y-2 mb-6 text-sm">
-                        <div class="flex justify-between">
-                            <span>AMR-100 (100kg)</span>
-                            <span class="font-semibold">350M VNĐ</span>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">2D/3D LiDAR navigation</span>
                         </div>
-                        <div class="flex justify-between">
-                            <span>AMR-500 (500kg)</span>
-                            <span class="font-semibold">750M VNĐ</span>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">AI/ML integrated SLAM</span>
                         </div>
-                        <div class="flex justify-between">
-                            <span>AMR-1000 (1000kg)</span>
-                            <span class="font-semibold">1.2 tỷ VNĐ</span>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Multi-robot coordination</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">24/7 autonomous operation</span>
                         </div>
                     </div>
                     
@@ -311,211 +350,148 @@
                     </div>
                 </div>
                 
-                <div class="bg-white p-6 rounded-2xl shadow-lg card-hover">
+                <!-- Smart Sensors -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
                     <div class="text-center mb-6">
-                        <div class="w-16 h-16 bg-yellow-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                            <i class="fas fa-microchip text-yellow-600 text-2xl"></i>
+                        <div class="w-20 h-20 bg-yellow-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-satellite-dish text-yellow-600 text-3xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-900">Cảm biến IoT</h3>
-                        <p class="text-gray-600 mt-2">25 loại cảm biến chuyên dụng</p>
+                        <h3 class="text-2xl font-bold text-gray-900">Smart Sensors</h3>
+                        <p class="text-gray-600 mt-2">Cảm biến IoT thông minh</p>
                     </div>
                     
-                    <div class="space-y-2 mb-6 text-sm">
-                        <div class="flex justify-between">
-                            <span>Nhiệt độ/Độ ẩm</span>
-                            <span class="font-semibold">1.5-3M VNĐ</span>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">High precision sensing</span>
                         </div>
-                        <div class="flex justify-between">
-                            <span>Áp suất/Lưu lượng</span>
-                            <span class="font-semibold">3-8M VNĐ</span>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Low-power wireless</span>
                         </div>
-                        <div class="flex justify-between">
-                            <span>Vị trí/Chuyển động</span>
-                            <span class="font-semibold">2-6M VNĐ</span>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Edge data processing</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Industrial grade IP67</span>
                         </div>
                     </div>
                     
                     <div class="text-center">
-                        <div class="text-lg font-bold text-yellow-600">12% doanh thu</div>
-                        <div class="text-sm text-gray-500">Tỷ trọng năm 2030</div>
-                    </div>
-                </div>
-                
-                <div class="bg-white p-6 rounded-2xl shadow-lg card-hover">
-                    <div class="text-center mb-6">
-                        <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                            <i class="fas fa-code text-purple-600 text-2xl"></i>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-900">Phần mềm & Dịch vụ</h3>
-                        <p class="text-gray-600 mt-2">Tư vấn, triển khai, bảo trì</p>
-                    </div>
-                    
-                    <div class="space-y-2 mb-6 text-sm">
-                        <div class="flex justify-between">
-                            <span>Tư vấn thiết kế</span>
-                            <span class="font-semibold">100-500M VNĐ</span>
-                        </div>
-                        <div class="flex justify-between">
-                            <span>Triển khai hệ thống</span>
-                            <span class="font-semibold">200M-2 tỷ VNĐ</span>
-                        </div>
-                        <div class="flex justify-between">
-                            <span>Bảo trì dài hạn</span>
-                            <span class="font-semibold">5-15% doanh thu</span>
-                        </div>
-                    </div>
-                    
-                    <div class="text-center">
-                        <div class="text-lg font-bold text-purple-600">8% doanh thu</div>
+                        <div class="text-lg font-bold text-yellow-600">20% doanh thu</div>
                         <div class="text-sm text-gray-500">Tỷ trọng năm 2030</div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Investment Phases Section -->
-    <section id="investment" class="section-padding">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">Quy mô và Giai đoạn đầu tư</h2>
-                <p class="text-xl text-gray-600">Tổng vốn 5 triệu USD phân bổ theo 4 giai đoạn trong 50 năm</p>
-            </div>
             
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-                <div class="bg-gradient-to-b from-blue-50 to-blue-100 p-6 rounded-2xl card-hover">
-                    <div class="text-center">
-                        <div class="text-3xl font-bold text-blue-600 mb-2">2025-2030</div>
-                        <div class="text-lg font-semibold mb-3">Giai đoạn 1</div>
-                        <div class="text-2xl font-bold text-gray-900 mb-2">$3M</div>
-                        <div class="text-sm text-gray-600 mb-4">60% tổng vốn</div>
-                        <ul class="text-sm text-gray-700 space-y-1">
-                            <li>• Mua lại nhà máy Tohin</li>
-                            <li>• Lắp đặt thiết bị</li>
-                            <li>• Tuyển dụng 60 người</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="bg-gradient-to-b from-green-50 to-green-100 p-6 rounded-2xl card-hover">
-                    <div class="text-center">
-                        <div class="text-3xl font-bold text-green-600 mb-2">2030-2040</div>
-                        <div class="text-lg font-semibold mb-3">Giai đoạn 2</div>
-                        <div class="text-2xl font-bold text-gray-900 mb-2">$1.25M</div>
-                        <div class="text-sm text-gray-600 mb-4">25% tổng vốn</div>
-                        <ul class="text-sm text-gray-700 space-y-1">
-                            <li>• Mở rộng sản xuất</li>
-                            <li>• Nâng cấp công nghệ</li>
-                            <li>• Mở rộng 120 người</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="bg-gradient-to-b from-yellow-50 to-yellow-100 p-6 rounded-2xl card-hover">
-                    <div class="text-center">
-                        <div class="text-3xl font-bold text-yellow-600 mb-2">2040-2060</div>
-                        <div class="text-lg font-semibold mb-3">Giai đoạn 3</div>
-                        <div class="text-2xl font-bold text-gray-900 mb-2">$0.5M</div>
-                        <div class="text-sm text-gray-600 mb-4">10% tổng vốn</div>
-                        <ul class="text-sm text-gray-700 space-y-1">
-                            <li>• Đổi mới công nghệ</li>
-                            <li>• Mở rộng thị trường</li>
-                            <li>• Đạt 200 người</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="bg-gradient-to-b from-purple-50 to-purple-100 p-6 rounded-2xl card-hover">
-                    <div class="text-center">
-                        <div class="text-3xl font-bold text-purple-600 mb-2">2060-2075</div>
-                        <div class="text-lg font-semibold mb-3">Giai đoạn 4</div>
-                        <div class="text-2xl font-bold text-gray-900 mb-2">$0.25M</div>
-                        <div class="text-sm text-gray-600 mb-4">5% tổng vốn</div>
-                        <ul class="text-sm text-gray-700 space-y-1">
-                            <li>• Bảo trì nâng cấp</li>
-                            <li>• Phát triển bền vững</li>
-                            <li>• Duy trì hiệu quả</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Financial Chart -->
+            <!-- Technology Roadmap -->
             <div class="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 class="text-2xl font-bold text-center mb-8">Dự báo doanh thu và lợi nhuận (10 năm đầu)</h3>
-                <canvas id="financialChart" width="800" height="400"></canvas>
+                <h3 class="text-2xl font-bold text-center mb-8 text-gray-900">
+                    Technology Roadmap 2025-2035
+                </h3>
+                <canvas id="techRoadmapChart" width="800" height="300"></canvas>
             </div>
         </div>
     </section>
 
-    <!-- Market Position Section -->
-    <section class="section-padding bg-gray-50">
+    <!-- Financial Analysis -->
+    <section id="financials" class="section-padding">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">Định vị thị trường và lợi thế cạnh tranh</h2>
-                <p class="text-xl text-gray-600">Phân tích SWOT và lợi thế cạnh tranh độc đáo</p>
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                    Hiệu quả đầu tư & Cam kết tài chính
+                    <span class="block text-xl text-gray-600 mt-2">Financial Performance & Investment Commitment</span>
+                </h2>
+                <p class="text-xl text-gray-600">Phân tích 3 kịch bản và Impact Metrics</p>
             </div>
             
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Điểm mạnh chiến lược (SWOT Score: 8.2/10)</h3>
+            <!-- KPI Dashboard -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                <div class="kpi-card p-6 rounded-xl shadow-lg">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold text-gray-700">Tổng vốn đầu tư</h3>
+                        <i class="fas fa-dollar-sign text-blue-600 text-xl"></i>
+                    </div>
+                    <div class="text-3xl font-bold text-blue-600 mb-2">10M USD</div>
+                    <div class="text-sm text-gray-500">≈ 250 tỷ VNĐ</div>
+                </div>
+                
+                <div class="kpi-card p-6 rounded-xl shadow-lg">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold text-gray-700">Doanh thu 2030</h3>
+                        <i class="fas fa-chart-line text-green-600 text-xl"></i>
+                    </div>
+                    <div class="text-3xl font-bold text-green-600 mb-2">45 tỷ VNĐ</div>
+                    <div class="text-sm text-gray-500">≈ 1.8M USD</div>
+                </div>
+                
+                <div class="kpi-card p-6 rounded-xl shadow-lg">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold text-gray-700">EBITDA Margin</h3>
+                        <i class="fas fa-percentage text-yellow-600 text-xl"></i>
+                    </div>
+                    <div class="text-3xl font-bold text-yellow-600 mb-2">15.2%</div>
+                    <div class="text-sm text-gray-500">Năm 2030</div>
+                </div>
+                
+                <div class="kpi-card p-6 rounded-xl shadow-lg">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold text-gray-700">Việc làm tạo ra</h3>
+                        <i class="fas fa-users text-purple-600 text-xl"></i>
+                    </div>
+                    <div class="text-3xl font-bold text-purple-600 mb-2">950</div>
+                    <div class="text-sm text-gray-500">Trực tiếp + gián tiếp</div>
+                </div>
+            </div>
+            
+            <!-- 3 Scenario Analysis -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg mb-12">
+                <h3 class="text-2xl font-bold text-center mb-8 text-gray-900">
+                    3 Kịch bản tài chính • Financial Scenarios
+                </h3>
+                <canvas id="scenarioChart" width="800" height="400"></canvas>
+            </div>
+
+            <!-- Investment Breakdown -->
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-bold mb-6 text-gray-900">Phân bổ vốn đầu tư</h3>
                     <div class="space-y-4">
-                        <div class="flex items-start space-x-4">
-                            <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-users text-white text-sm"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-900">Đội ngũ R&D mạnh</h4>
-                                <p class="text-gray-600">25 kỹ sư kinh nghiệm 8+ năm IoT/Robot, chuyển giao công nghệ Tohin</p>
-                            </div>
+                        <div class="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
+                            <span class="text-gray-700">Máy móc & Thiết bị</span>
+                            <span class="font-bold text-blue-600">7M USD (70%)</span>
                         </div>
-                        
-                        <div class="flex items-start space-x-4">
-                            <div class="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-map-marker-alt text-white text-sm"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-900">Vị trí địa lý thuận lợi</h4>
-                                <p class="text-gray-600">KCN Cao TP.HCM, gần cảng biển và sân bay quốc tế</p>
-                            </div>
+                        <div class="flex justify-between items-center p-3 bg-green-50 rounded-lg">
+                            <span class="text-gray-700">Nhà máy Tohin</span>
+                            <span class="font-bold text-green-600">2.5M USD</span>
                         </div>
-                        
-                        <div class="flex items-start space-x-4">
-                            <div class="w-8 h-8 bg-yellow-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-rocket text-white text-sm"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-900">Cơ hội thị trường lớn</h4>
-                                <p class="text-gray-600">IoT tăng 23.5%/năm, Robot AMR tăng 35.2%/năm, chuyển đổi số quốc gia</p>
-                            </div>
-                        </div>
-                        
-                        <div class="flex items-start space-x-4">
-                            <div class="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-handshake text-white text-sm"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-900">Lợi thế mua lại Tohin</h4>
-                                <p class="text-gray-600">Tiết kiệm 1.7 tỷ VNĐ, rút ngắn 12 tháng, tăng NPV 49%</p>
-                            </div>
+                        <div class="flex justify-between items-center p-3 bg-yellow-50 rounded-lg">
+                            <span class="text-gray-700">R&D & Vận hành</span>
+                            <span class="font-bold text-yellow-600">3M USD (30%)</span>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="bg-white p-8 rounded-2xl shadow-lg">
-                    <h3 class="text-xl font-bold text-center mb-6 text-gray-900">Thị phần mục tiêu 2030</h3>
-                    <canvas id="marketShareChart" width="400" height="400"></canvas>
-                    <div class="mt-6 text-center">
-                        <div class="text-sm text-gray-600 mb-2">ROI cho khách hàng</div>
-                        <div class="grid grid-cols-2 gap-4 text-sm">
-                            <div>
-                                <div class="font-semibold">DNNVV: 280%</div>
-                                <div class="text-gray-500">ROI 5 năm</div>
-                            </div>
-                            <div>
-                                <div class="font-semibold">Logistics: 325%</div>
-                                <div class="text-gray-500">ROI 5 năm</div>
-                            </div>
+                    <h3 class="text-xl font-bold mb-6 text-gray-900">Impact Metrics</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-leaf text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Net Zero commitment 2050</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-graduation-cap text-blue-500 mr-3"></i>
+                            <span class="text-gray-700">2,000 kỹ thuật viên đào tạo</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-handshake text-purple-500 mr-3"></i>
+                            <span class="text-gray-700">100 DNNVV hỗ trợ</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-award text-yellow-500 mr-3"></i>
+                            <span class="text-gray-700">25+ bằng sáng chế</span>
                         </div>
                     </div>
                 </div>
@@ -523,12 +499,15 @@
         </div>
     </section>
 
-    <!-- Roadmap Section -->
-    <section id="roadmap" class="section-padding">
+    <!-- Implementation Roadmap -->
+    <section id="roadmap" class="section-padding bg-gray-50">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">Lộ trình phát triển 50 năm</h2>
-                <p class="text-xl text-gray-600">Từ khởi động đến dẫn đầu khu vực ASEAN</p>
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                    Lộ trình triển khai & Mốc chính
+                    <span class="block text-xl text-gray-600 mt-2">Implementation Roadmap & Key Milestones</span>
+                </h2>
+                <p class="text-xl text-gray-600">50 năm phát triển bền vững từ khởi động đến dẫn đầu ASEAN</p>
             </div>
             
             <!-- Timeline -->
@@ -539,12 +518,13 @@
                     <div class="relative flex items-center">
                         <div class="timeline-item w-1/2 pr-8 text-right">
                             <div class="bg-white p-6 rounded-2xl shadow-lg card-hover">
-                                <h3 class="text-xl font-bold text-blue-600 mb-2">2025-2030: Khởi động</h3>
+                                <h3 class="text-xl font-bold text-blue-600 mb-2">2025-2030: Foundation</h3>
                                 <p class="text-gray-600 mb-3">Thiết lập nền tảng với mua lại Tohin</p>
                                 <ul class="text-sm text-gray-700 space-y-1">
-                                    <li>• Mua lại và cải tạo nhà máy Tohin</li>
-                                    <li>• Ra mắt MK-100, AMR-100</li>
-                                    <li>• Doanh thu 800K → 7.6M USD</li>
+                                    <li>• Mua lại nhà máy Tohin (2.5M USD)</li>
+                                    <li>• Doanh thu: 0 → 45 tỷ VNĐ</li>
+                                    <li>• Nhân sự: 60 người</li>
+                                    <li>• 8% thị phần IoT Việt Nam</li>
                                 </ul>
                             </div>
                         </div>
@@ -555,12 +535,13 @@
                         <div class="w-1/2"></div>
                         <div class="timeline-item w-1/2 pl-8">
                             <div class="bg-white p-6 rounded-2xl shadow-lg card-hover">
-                                <h3 class="text-xl font-bold text-green-600 mb-2">2030-2040: Tăng trưởng</h3>
+                                <h3 class="text-xl font-bold text-green-600 mb-2">2030-2040: Growth</h3>
                                 <p class="text-gray-600 mb-3">Mở rộng quy mô và thị trường</p>
                                 <ul class="text-sm text-gray-700 space-y-1">
-                                    <li>• Ra mắt dòng MK-200, AMR-500</li>
-                                    <li>• Xuất khẩu sang ASEAN</li>
-                                    <li>• 8% thị phần IoT Việt Nam</li>
+                                    <li>• Doanh thu: 45 → 120 tỷ VNĐ</li>
+                                    <li>• Xuất khẩu ASEAN</li>
+                                    <li>• Nhân sự: 120 người</li>
+                                    <li>• 15+ công nghệ lõi</li>
                                 </ul>
                             </div>
                         </div>
@@ -569,12 +550,13 @@
                     <div class="relative flex items-center">
                         <div class="timeline-item w-1/2 pr-8 text-right">
                             <div class="bg-white p-6 rounded-2xl shadow-lg card-hover">
-                                <h3 class="text-xl font-bold text-yellow-600 mb-2">2040-2060: Dẫn đầu</h3>
-                                <p class="text-gray-600 mb-3">Đạt vị thế dẫn đầu khu vực</p>
+                                <h3 class="text-xl font-bold text-yellow-600 mb-2">2040-2060: Leadership</h3>
+                                <p class="text-gray-600 mb-3">Dẫn đầu khu vực ASEAN</p>
                                 <ul class="text-sm text-gray-700 space-y-1">
                                     <li>• Top 3 ASEAN trong IoT</li>
                                     <li>• 35% doanh thu từ xuất khẩu</li>
-                                    <li>• Công nghệ AI thế hệ mới</li>
+                                    <li>• Nhân sự: 200 người</li>
+                                    <li>• 25+ bằng sáng chế</li>
                                 </ul>
                             </div>
                         </div>
@@ -585,12 +567,13 @@
                         <div class="w-1/2"></div>
                         <div class="timeline-item w-1/2 pl-8">
                             <div class="bg-white p-6 rounded-2xl shadow-lg card-hover">
-                                <h3 class="text-xl font-bold text-purple-600 mb-2">2060-2075: Bền vững</h3>
-                                <p class="text-gray-600 mb-3">Duy trì và phát triển bền vững</p>
+                                <h3 class="text-xl font-bold text-purple-600 mb-2">2060-2075: Sustainability</h3>
+                                <p class="text-gray-600 mb-3">Phát triển bền vững</p>
                                 <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Net Zero achievement</li>
                                     <li>• Trung tâm R&D khu vực</li>
-                                    <li>• Net Zero đạt được</li>
-                                    <li>• 25+ bằng sáng chế</li>
+                                    <li>• Legacy technology transfer</li>
+                                    <li>• Sustainable innovation</li>
                                 </ul>
                             </div>
                         </div>
@@ -600,78 +583,91 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact & Call to Action -->
     <section id="contact" class="section-padding hero-gradient text-white">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold mb-4">Liên hệ đầu tư và hợp tác</h2>
-                <p class="text-xl">Cùng chúng tôi xây dựng tương lai công nghệ cao tại Việt Nam</p>
+                <h2 class="text-4xl font-bold mb-4">
+                    Cam kết chủ đầu tư & Kêu gọi hành động
+                    <span class="block text-xl text-blue-100 mt-2">Investor Commitment & Call to Action</span>
+                </h2>
+                <p class="text-xl">Cùng chúng tôi xây dựng tương lai công nghệ cao "Made in Vietnam"</p>
             </div>
             
             <div class="grid md:grid-cols-2 gap-12">
                 <div>
-                    <h3 class="text-2xl font-bold mb-6">Thông tin dự án</h3>
+                    <h3 class="text-2xl font-bold mb-6">Cam kết của chúng tôi</h3>
                     <div class="space-y-6">
-                        <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
-                                <i class="fas fa-map-marker-alt text-white text-xl"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold">Địa điểm</h4>
-                                <p class="text-blue-100">Lô I-10-3, I-10-4, I-10-5, D6, KCN Cao TP.HCM</p>
-                            </div>
-                        </div>
-                        
                         <div class="flex items-center space-x-4">
                             <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
                                 <i class="fas fa-dollar-sign text-white text-xl"></i>
                             </div>
                             <div>
-                                <h4 class="font-semibold">Tổng vốn đầu tư</h4>
-                                <p class="text-blue-100">5.000.000 USD (125 tỷ VNĐ)</p>
+                                <h4 class="font-semibold">Cam kết vốn đầy đủ</h4>
+                                <p class="text-blue-100">10 triệu USD (250 tỷ VNĐ) trong 50 năm</p>
                             </div>
                         </div>
                         
                         <div class="flex items-center space-x-4">
                             <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
-                                <i class="fas fa-chart-line text-white text-xl"></i>
+                                <i class="fas fa-clock text-white text-xl"></i>
                             </div>
                             <div>
-                                <h4 class="font-semibold">Hiệu quả đầu tư</h4>
-                                <p class="text-blue-100">IRR 18.5%, NPV 85 tỷ VNĐ, Payback 7.5 năm</p>
+                                <h4 class="font-semibold">Tiến độ minh bạch</h4>
+                                <p class="text-blue-100">Báo cáo tiến độ hàng quý, kiểm toán độc lập</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-leaf text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Phát triển bền vững</h4>
+                                <p class="text-blue-100">Net Zero 2050, ESG compliance, trách nhiệm xã hội</p>
                             </div>
                         </div>
 
                         <div class="flex items-center space-x-4">
                             <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
-                                <i class="fas fa-envelope text-white text-xl"></i>
+                                <i class="fas fa-handshake text-white text-xl"></i>
                             </div>
                             <div>
-                                <h4 class="font-semibold">Liên hệ</h4>
-                                <p class="text-blue-100">invest@mekongtech.vn | +84 292 123 4567</p>
+                                <h4 class="font-semibold">Hợp tác lâu dài</h4>
+                                <p class="text-blue-100">Đồng hành cùng Ban Quản lý, cộng đồng, đối tác</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 
                 <div class="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
-                    <h3 class="text-2xl font-bold mb-6">Đăng ký nhận thông tin đầu tư</h3>
-                    <form class="space-y-4">
-                        <input type="text" placeholder="Họ và tên" class="w-full p-4 rounded-lg bg-white/20 border border-white/30 text-white placeholder-blue-100">
-                        <input type="email" placeholder="Email" class="w-full p-4 rounded-lg bg-white/20 border border-white/30 text-white placeholder-blue-100">
-                        <input type="tel" placeholder="Số điện thoại" class="w-full p-4 rounded-lg bg-white/20 border border-white/30 text-white placeholder-blue-100">
-                        <select class="w-full p-4 rounded-lg bg-white/20 border border-white/30 text-white">
-                            <option value="">Vai trò của bạn</option>
-                            <option value="investor">Nhà đầu tư</option>
-                            <option value="partner">Đối tác kinh doanh</option>
-                            <option value="customer">Khách hàng tiềm năng</option>
-                            <option value="supplier">Nhà cung cấp</option>
-                        </select>
-                        <textarea placeholder="Nội dung quan tâm" rows="4" class="w-full p-4 rounded-lg bg-white/20 border border-white/30 text-white placeholder-blue-100"></textarea>
-                        <button type="submit" class="w-full bg-yellow-400 text-gray-900 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition">
-                            <i class="fas fa-paper-plane mr-2"></i>Gửi thông tin đầu tư
+                    <h3 class="text-2xl font-bold mb-6">Đề xuất hỗ trợ</h3>
+                    <div class="space-y-4 mb-6">
+                        <div class="flex justify-between items-center">
+                            <span class="text-blue-100">Ưu đãi thuế TNDN</span>
+                            <span class="font-bold text-yellow-400">10% trong 15 năm</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-blue-100">Hỗ trợ đất đai</span>
+                            <span class="font-bold text-yellow-400">Thuê ưu đãi</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-blue-100">R&D support</span>
+                            <span class="font-bold text-yellow-400">Khấu trừ 200%</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-blue-100">Hạ tầng</span>
+                            <span class="font-bold text-yellow-400">Kết nối ưu tiên</span>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <h4 class="font-bold mb-3">Liên hệ ngay hôm nay</h4>
+                        <p class="text-sm mb-4">Email: invest@mekongtech.vn | Hotline: +84 292 123 4567</p>
+                        <button class="w-full bg-yellow-400 text-gray-900 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition">
+                            <i class="fas fa-paper-plane mr-2"></i>Đề nghị phê duyệt dự án
                         </button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -688,39 +684,37 @@
                         </div>
                         <span class="text-xl font-bold">MEKONG Tech Hub</span>
                     </div>
-                    <p class="text-gray-400 mb-4">Khu Liên hợp sản xuất công nghệ cao MEKONG - Dẫn đầu tương lai</p>
+                    <p class="text-gray-400 mb-4">Khu Liên hợp sản xuất công nghệ cao MEKONG</p>
                     <div class="text-sm text-gray-500">
                         <p>Chủ đầu tư: Công ty CP Công nghệ Mekong</p>
-                        <p>Giấy CN ĐKKD: [Đang xử lý]</p>
+                        <p>Tổng vốn: 10M USD (250 tỷ VNĐ)</p>
+                        <p>Thời gian: 50 năm (2025-2075)</p>
                     </div>
                 </div>
                 
                 <div>
-                    <h4 class="font-bold mb-4">Dự án</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="#overview" class="hover:text-white transition">Tổng quan</a></li>
-                        <li><a href="#investment" class="hover:text-white transition">Đầu tư</a></li>
-                        <li><a href="#technology" class="hover:text-white transition">Sản phẩm</a></li>
-                        <li><a href="#roadmap" class="hover:text-white transition">Lộ trình</a></li>
+                    <h4 class="font-bold mb-4">Tài liệu tham khảo</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li>• Statista IoT Market Report</li>
+                        <li>• Vietnam Industry 4.0 Report</li>
+                        <li>• World Bank/ADB Guidelines</li>
+                        <li>• UNIDO Best Practices</li>
                     </ul>
                 </div>
                 
                 <div>
-                    <h4 class="font-bold mb-4">Sản phẩm chính</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition">IoT Gateway MK-100/200/300</a></li>
-                        <li><a href="#" class="hover:text-white transition">Robot AMR-100/500/1000</a></li>
-                        <li><a href="#" class="hover:text-white transition">Cảm biến IoT (25 loại)</a></li>
-                        <li><a href="#" class="hover:text-white transition">Dịch vụ tích hợp</a></li>
+                    <h4 class="font-bold mb-4">Công nghệ lõi</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li>• ARM Cortex-A processors</li>
+                        <li>• Edge AI computing</li>
+                        <li>• LiDAR navigation</li>
+                        <li>• Industrial IoT protocols</li>
                     </ul>
                 </div>
                 
                 <div>
                     <h4 class="font-bold mb-4">Kết nối</h4>
                     <div class="flex space-x-4 mb-4">
-                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
                         <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
@@ -736,68 +730,82 @@
             </div>
             
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 MEKONG Tech Hub. All rights reserved. | Dự án đầu tư 5M USD - 50 năm phát triển bền vững</p>
+                <p>&copy; 2024 MEKONG Tech Hub. "Made in Vietnam - Made for ASEAN" | Presentation for Management Board</p>
             </div>
         </div>
     </footer>
 
     <!-- Charts Scripts -->
     <script>
-        // Overview Chart - Portfolio sản phẩm
-        const overviewCtx = document.getElementById('overviewChart').getContext('2d');
-        new Chart(overviewCtx, {
-            type: 'doughnut',
+        // Technology Roadmap Chart
+        const techCtx = document.getElementById('techRoadmapChart').getContext('2d');
+        new Chart(techCtx, {
+            type: 'bar',
             data: {
-                labels: ['IoT Gateway (45%)', 'Robot AMR (35%)', 'Cảm biến IoT (12%)', 'Phần mềm & Dịch vụ (8%)'],
+                labels: ['2025-2027', '2028-2030', '2031-2035', '2036-2040', '2041-2050'],
                 datasets: [{
-                    data: [45, 35, 12, 8],
-                    backgroundColor: ['#0072C6', '#10B981', '#FFD700', '#8B5CF6'],
-                    borderWidth: 0
+                    label: 'Basic Technology',
+                    data: [100, 80, 60, 40, 20],
+                    backgroundColor: '#E5E7EB'
+                }, {
+                    label: 'Advanced Tech',
+                    data: [0, 20, 40, 60, 50],
+                    backgroundColor: '#0072C6'
+                }, {
+                    label: 'AI/ML Integration',
+                    data: [0, 0, 20, 40, 60],
+                    backgroundColor: '#10B981'
+                }, {
+                    label: 'Next-Gen Innovation',
+                    data: [0, 0, 0, 20, 40],
+                    backgroundColor: '#FFD700'
                 }]
             },
             options: {
                 responsive: true,
-                plugins: {
-                    legend: {
-                        position: 'bottom',
-                        labels: {
-                            padding: 20,
-                            font: {
-                                size: 12
-                            }
-                        }
+                scales: {
+                    x: {
+                        stacked: true
                     },
-                    title: {
-                        display: true,
-                        text: 'Tỷ trọng doanh thu 2030',
-                        font: {
-                            size: 16,
-                            weight: 'bold'
+                    y: {
+                        stacked: true,
+                        max: 100,
+                        title: {
+                            display: true,
+                            text: 'Technology Mix (%)'
                         }
                     }
                 }
             }
         });
 
-        // Financial Chart - Dự báo 10 năm đầu
-        const financialCtx = document.getElementById('financialChart').getContext('2d');
-        new Chart(financialCtx, {
+        // 3 Scenario Analysis Chart
+        const scenarioCtx = document.getElementById('scenarioChart').getContext('2d');
+        new Chart(scenarioCtx, {
             type: 'line',
             data: {
-                labels: ['2025', '2026', '2027', '2028', '2029', '2030', '2031', '2032', '2033', '2034'],
+                labels: ['2025', '2026', '2027', '2028', '2029', '2030', '2035', '2040', '2050'],
                 datasets: [{
-                    label: 'Doanh thu (triệu USD)',
-                    data: [0.8, 1.6, 2.8, 4.2, 5.88, 7.64, 9.18, 10.62, 11.94, 13.14],
-                    borderColor: '#0072C6',
-                    backgroundColor: 'rgba(0, 114, 198, 0.1)',
-                    fill: true,
+                    label: 'Pessimistic (-20%)',
+                    data: [0, 6.4, 14.4, 22.4, 30.4, 36, 96, 200, 350],
+                    borderColor: '#EF4444',
+                    backgroundColor: 'rgba(239, 68, 68, 0.1)',
+                    fill: false,
                     tension: 0.4
                 }, {
-                    label: 'EBITDA (triệu USD)',
-                    data: [-0.3, -0.1, 0.3, 0.8, 1.4, 1.8, 2.4, 3.1, 3.6, 4.2],
+                    label: 'Base Case',
+                    data: [0, 8, 18, 28, 38, 45, 120, 200, 350],
+                    borderColor: '#0072C6',
+                    backgroundColor: 'rgba(0, 114, 198, 0.1)',
+                    fill: false,
+                    tension: 0.4,
+                    borderWidth: 3
+                }, {
+                    label: 'Optimistic (+20%)',
+                    data: [0, 9.6, 21.6, 33.6, 45.6, 54, 144, 240, 420],
                     borderColor: '#10B981',
                     backgroundColor: 'rgba(16, 185, 129, 0.1)',
-                    fill: true,
+                    fill: false,
                     tension: 0.4
                 }]
             },
@@ -808,41 +816,17 @@
                         beginAtZero: true,
                         title: {
                             display: true,
-                            text: 'Triệu USD'
+                            text: 'Doanh thu (tỷ VNĐ)'
                         }
                     }
                 },
                 plugins: {
                     legend: {
                         position: 'top'
-                    }
-                }
-            }
-        });
-
-        // Market Share Chart
-        const marketCtx = document.getElementById('marketShareChart').getContext('2d');
-        new Chart(marketCtx, {
-            type: 'pie',
-            data: {
-                labels: ['MEKONG Tech (8%)', 'Schneider Electric', 'Siemens', 'ABB', 'Đối thủ khác'],
-                datasets: [{
-                    data: [8, 15, 12, 10, 55],
-                    backgroundColor: ['#0072C6', '#10B981', '#FFD700', '#EF4444', '#E5E7EB'],
-                    borderWidth: 2,
-                    borderColor: '#fff'
-                }]
-            },
-            options: {
-                responsive: true,
-                plugins: {
-                    legend: {
-                        position: 'bottom',
-                        labels: {
-                            font: {
-                                size: 11
-                            }
-                        }
+                    },
+                    title: {
+                        display: true,
+                        text: '3 Kịch bản tài chính - NPV Analysis'
                     }
                 }
             }
