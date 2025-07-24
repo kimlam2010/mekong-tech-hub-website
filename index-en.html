@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEKONG TECH HUB | $10M IoT & AMR Manufacturing Investment Project</title>
+    <meta name="description" content="Strategic $10M investment opportunity in IoT Gateway and AMR robot manufacturing in Vietnam's Mekong Delta - 50-year development horizon with 18.5% IRR">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #0369a1 0%, #1e40af 50%, #3730a3 100%);
+        }
+        .mekong-gold {
+            color: #fbbf24;
+        }
+        .bg-mekong-gold {
+            background-color: #fbbf24;
+        }
+        .product-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .tech-bg {
+            background: linear-gradient(45deg, #1e3c72 0%, #2a5298 100%);
+        }
+        .stats-counter {
+            animation: countUp 2s ease-out;
+        }
+        @keyframes countUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .roadmap-timeline {
+            position: relative;
+        }
+        .roadmap-timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            height: 100%;
+            width: 3px;
+            background: linear-gradient(to bottom, #667eea, #764ba2);
+            transform: translateX(-50%);
+        }
+        .roadmap-item {
+            position: relative;
+            margin-bottom: 3rem;
+        }
+        .roadmap-dot {
+            position: absolute;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            background: #667eea;
+            border-radius: 50%;
+            transform: translateX(-50%);
+            border: 4px solid white;
+            box-shadow: 0 0 0 4px #667eea;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-2xl font-bold text-blue-600">MEKONG TECH HUB</h1>
+                        <p class="text-xs text-gray-500">Advanced Manufacturing Complex</p>
+                    </div>
+                    <div class="hidden md:ml-6 md:flex md:space-x-4">
+                        <a href="#market-analysis" class="text-gray-900 hover:text-blue-600 px-2 py-2 text-sm font-medium">Market</a>
+                        <a href="#overview" class="text-gray-900 hover:text-blue-600 px-2 py-2 text-sm font-medium">Overview</a>
+                        <a href="#products" class="text-gray-900 hover:text-blue-600 px-2 py-2 text-sm font-medium">Products</a>
+                        <a href="#compliance" class="text-gray-900 hover:text-blue-600 px-2 py-2 text-sm font-medium">Compliance</a>
+                        <a href="#team-casestudies" class="text-gray-900 hover:text-blue-600 px-2 py-2 text-sm font-medium">Team</a>
+                        <a href="#contact" class="text-gray-900 hover:text-blue-600 px-2 py-2 text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button class="bg-mekong-gold text-gray-900 px-4 py-2 rounded-md text-sm font-medium hover:bg-yellow-400 font-semibold">
+                        Investor Relations
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white pt-20">
+        <div class="max-w-7xl mx-auto px-4 py-20">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-block bg-white bg-opacity-20 px-4 py-2 rounded-full text-sm font-medium mb-6">
+                        <i class="fas fa-chart-line mr-2"></i>
+                        Premium Investment Opportunity
+                    </div>
+                    <h1 class="text-5xl font-bold mb-6">
+                        MEKONG HIGH-TECH 
+                        <span class="text-yellow-300">MANUFACTURING COMPLEX</span>
+                    </h1>
+                    <p class="text-xl mb-8 text-gray-200">
+                        Strategic $10M investment in IoT Gateway and AMR robot manufacturing 
+                        with 50-year sustainable development horizon, targeting 18.5% IRR and 
+                        creating 200 high-value jobs in Vietnam's emerging technology sector
+                    </p>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="bg-white bg-opacity-20 px-6 py-3 rounded-lg text-center">
+                            <div class="text-3xl font-bold">$10M</div>
+                            <div class="text-sm">Total Investment</div>
+                        </div>
+                        <div class="bg-white bg-opacity-20 px-6 py-3 rounded-lg text-center">
+                            <div class="text-3xl font-bold">50Y</div>
+                            <div class="text-sm">Project Horizon</div>
+                        </div>
+                        <div class="bg-white bg-opacity-20 px-6 py-3 rounded-lg text-center">
+                            <div class="text-3xl font-bold">200+</div>
+                            <div class="text-sm">Jobs Created</div>
+                        </div>
+                        <div class="bg-white bg-opacity-20 px-6 py-3 rounded-lg text-center">
+                            <div class="text-3xl font-bold">18.5%</div>
+                            <div class="text-sm">Target IRR</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:text-right">
+                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                         alt="Smart Factory" class="rounded-lg shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Analysis Section -->
+    <section id="market-analysis" class="py-20 bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Vietnam IoT & Robotics Market Analysis</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Vietnam's IoT market grows at 25% CAGR with AMR robotics expanding 35% annually, 
+                    creating unprecedented opportunities for local manufacturing leadership
+                </p>
+            </div>
+
+            <!-- Market Size & Growth -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <h3 class="text-2xl font-bold mb-6">Vietnam Market Opportunity</h3>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center p-4 bg-blue-50 rounded-lg">
+                            <span class="font-medium">Industrial IoT 2024</span>
+                            <span class="text-blue-600 font-bold">$850M</span>
+                        </div>
+                        <div class="flex justify-between items-center p-4 bg-green-50 rounded-lg">
+                            <span class="font-medium">AMR Market 2024</span>
+                            <span class="text-green-600 font-bold">$120M</span>
+                        </div>
+                        <div class="flex justify-between items-center p-4 bg-purple-50 rounded-lg">
+                            <span class="font-medium">2030 Forecast</span>
+                            <span class="text-purple-600 font-bold">$2.8B</span>
+                        </div>
+                        <div class="flex justify-between items-center p-4 bg-orange-50 rounded-lg">
+                            <span class="font-medium">CAGR (2024-2030)</span>
+                            <span class="text-orange-600 font-bold">28.5%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <h3 class="text-2xl font-bold mb-6">Competitive Landscape</h3>
+                    <div class="space-y-4">
+                        <div class="border-l-4 border-red-500 pl-4">
+                            <h4 class="font-bold text-red-700">Schneider Electric</h4>
+                            <p class="text-sm text-gray-600">Market Share: 15% | Pricing: +60% vs MEKONG</p>
+                            <p class="text-xs">Weakness: High pricing, limited customization</p>
+                        </div>
+                        <div class="border-l-4 border-blue-500 pl-4">
+                            <h4 class="font-bold text-blue-700">Siemens</h4>
+                            <p class="text-sm text-gray-600">Market Share: 12% | Pricing: +80% vs MEKONG</p>
+                            <p class="text-xs">Weakness: Complex solutions, long sales cycles</p>
+                        </div>
+                        <div class="border-l-4 border-green-500 pl-4">
+                            <h4 class="font-bold text-green-700">ABB</h4>
+                            <p class="text-sm text-gray-600">Market Share: 10% | Pricing: +55% vs MEKONG</p>
+                            <p class="text-xs">Weakness: Limited IoT integration</p>
+                        </div>
+                        <div class="border-l-4 border-mekong-gold pl-4">
+                            <h4 class="font-bold text-yellow-700">MEKONG TECH</h4>
+                            <p class="text-sm text-gray-600">Target: 25% by 2030 | Price Advantage: -40%</p>
+                            <p class="text-xs">USP: Local + Cost + Speed + Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Competitive Advantages -->
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h3 class="text-2xl font-bold text-center mb-8">Competitive Advantages</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center p-6 bg-blue-50 rounded-lg">
+                        <div class="text-3xl font-bold text-blue-600 mb-2">40-60%</div>
+                        <div class="text-sm text-gray-700">Below international pricing</div>
+                    </div>
+                    <div class="text-center p-6 bg-green-50 rounded-lg">
+                        <div class="text-3xl font-bold text-green-600 mb-2">2-4</div>
+                        <div class="text-sm text-gray-700">weeks deployment</div>
+                    </div>
+                    <div class="text-center p-6 bg-purple-50 rounded-lg">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">24/7</div>
+                        <div class="text-sm text-gray-700">Local language support</div>
+                    </div>
+                    <div class="text-center p-6 bg-orange-50 rounded-lg">
+                        <div class="text-3xl font-bold text-orange-600 mb-2">15</div>
+                        <div class="text-sm text-gray-700">months average ROI</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Investment Overview</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Establishing Vietnam's premier high-tech manufacturing complex in the strategic 
+                    Mekong Delta region, specializing in IoT Gateway, AMR robots, and industrial automation solutions
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                <div class="text-center">
+                    <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-industry text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Tohin Factory Acquisition</h3>
+                    <p class="text-gray-600">Leveraging existing 4,500m² facility with modern SMT production lines</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-microchip text-3xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">IoT Gateway Portfolio</h3>
+                    <p class="text-gray-600">12 product variants from basic to enterprise, $480K-$3.8M pricing range</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-robot text-3xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">AMR Robot Systems</h3>
+                    <p class="text-gray-600">8 autonomous mobile robots from 100kg to 2000kg payload capacity</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-orange-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-cogs text-3xl text-orange-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Integrated Services</h3>
+                    <p class="text-gray-600">Consultation, implementation, training, and 24/7 maintenance services</p>
+                </div>
+            </div>
+                    
+            <!-- Financial Highlights -->
+            <div class="bg-gray-50 rounded-lg p-8">
+                <h3 class="text-2xl font-bold text-center mb-8">Key Financial Metrics</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-600 stats-counter">$10M</div>
+                        <div class="text-gray-600 mb-4">Total Investment</div>
+                        <div class="text-sm text-gray-500">VND 250 billion</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-green-600 stats-counter">18.5%</div>
+                        <div class="text-gray-600 mb-4">Expected IRR</div>
+                        <div class="text-sm text-gray-500">Above 12% threshold</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 stats-counter">$34M</div>
+                        <div class="text-gray-600 mb-4">NPV (15 years)</div>
+                        <div class="text-sm text-gray-500">12% discount rate</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-orange-600 stats-counter">7.5</div>
+                        <div class="text-gray-600 mb-4">Payback Period (years)</div>
+                        <div class="text-sm text-gray-500">Below 8-year target</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Product Portfolio</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Comprehensive "Good-Better-Best" product strategy targeting SMEs to large enterprises 
+                    with competitive pricing and superior local support
+                </p>
+            </div>
+            
+            <!-- IoT Gateway Products -->
+            <div class="mb-16">
+                <h3 class="text-3xl font-bold text-center mb-12">IoT Gateway - Core Revenue Driver (45%)</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="product-card bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-microchip text-2xl text-blue-600"></i>
+                        </div>
+                        <h4 class="text-xl font-bold text-center mb-2">MK-100 Basic</h4>
+                        <p class="text-center text-gray-600 mb-4">IoT Gateway for SMEs</p>
+                        <div class="space-y-2 mb-6">
+                            <div class="flex justify-between">
+                                <span class="text-sm text-gray-600">Processor:</span>
+                                <span class="text-sm font-medium">ARM Cortex-A55</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-sm text-gray-600">Memory:</span>
+                                <span class="text-sm font-medium">2-4GB RAM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-sm text-gray-600">Connectivity:</span>
+                                <span class="text-sm font-medium">WiFi + 4G + LoRaWAN</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-sm text-gray-600">I/O Channels:</span>
+                                <span class="text-sm font-medium">8-24 channels</span>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-blue-600 mb-2">$480-720</div>
+                            <div class="text-sm text-gray-600">Gross Margin: 40%</div>
+                            <div class="text-sm text-gray-600">Annual Volume: 1,800 units</div>
+                        </div>
+                    </div>
+
+                    <div class="product-card bg-white rounded-lg shadow-lg p-6 border-2 border-blue-500">
+                        <div class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium mx-auto w-fit mb-2">BESTSELLER</div>
+                        <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-brain text-2xl text-green-600"></i>
+                        </div>
+                        <h4 class="text-xl font-bold text-center mb-2">MK-200 Pro</h4>
+                        <p class="text-center text-gray-600 mb-4">Professional IoT Gateway</p>
+                        <div class="space-y-2 mb-6">
+                            <div class="flex justify-between">
+                                <span class="text-sm text-gray-600">Processor:</span>
+                                <span class="text-sm font-medium">ARM Cortex-A78</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-sm text-gray-600">AI Processing:</span>
+                                <span class="text-sm font-medium">2-8 TOPS NPU</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-sm text-gray-600">Memory:</span>
+                                <span class="text-sm font-medium">8-32GB RAM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-sm text-gray-600">I/O Expansion:</span>
+                                <span class="text-sm font-medium">32-128 channels</span>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-green-600 mb-2">$1,000-1,800</div>
+                            <div class="text-sm text-gray-600">Gross Margin: 45%</div>
+                            <div class="text-sm text-gray-600">Annual Volume: 850 units</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-shield-alt text-2xl text-purple-600"></i>
+                        </div>
+                        <h4 class="text-xl font-bold text-center mb-2">MK-300 Enterprise</h4>
+                        <p class="text-center text-gray-600 mb-4">Enterprise IoT Gateway</p>
+                        <div class="space-y-2 mb-6">
+                            <div class="flex justify-between">
+                                <span class="text-sm text-gray-600">Architecture:</span>
+                                <span class="text-sm font-medium">Dual-core redundant</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-sm text-gray-600">Security:</span>
+                                <span class="text-sm font-medium">HSM + Quantum</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-sm text-gray-600">AI Processing:</span>
+                                <span class="text-sm font-medium">10-50 TOPS</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-sm text-gray-600">Uptime:</span>
+                                <span class="text-sm font-medium">99.9-99.99%</span>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-purple-600 mb-2">$2,200-3,800</div>
+                            <div class="text-sm text-gray-600">Gross Margin: 50%</div>
+                            <div class="text-sm text-gray-600">Annual Volume: 140 units</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Robot AMR Products -->
+            <div class="mb-16">
+                <h3 class="text-3xl font-bold text-center mb-12">AMR Robot Systems - Industrial Automation (35%)</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="product-card bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-dolly text-blue-600"></i>
+                        </div>
+                        <h4 class="text-lg font-bold text-center mb-2">AMR-100</h4>
+                        <div class="text-center mb-4">
+                            <div class="text-xl font-bold text-blue-600">100kg</div>
+                            <div class="text-sm text-gray-600">Payload Capacity</div>
+                        </div>
+                        <div class="space-y-1 text-sm mb-4">
+                            <div>• 2D LiDAR + Visual SLAM</div>
+                            <div>• 8-hour operation cycle</div>
+                            <div>• Small warehouses, e-commerce</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-lg font-bold">$3,200-3,800</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-shipping-fast text-green-600"></i>
+                        </div>
+                        <h4 class="text-lg font-bold text-center mb-2">AMR-500</h4>
+                        <div class="text-center mb-4">
+                            <div class="text-xl font-bold text-green-600">500kg</div>
+                            <div class="text-sm text-gray-600">Payload Capacity</div>
+                        </div>
+                        <div class="space-y-1 text-sm mb-4">
+                            <div>• 3D LiDAR + AI navigation</div>
+                            <div>• 10-hour operation cycle</div>
+                            <div>• Factories, logistics centers</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-lg font-bold">$7,200-8,800</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-industry text-purple-600"></i>
+                        </div>
+                        <h4 class="text-lg font-bold text-center mb-2">AMR-1000</h4>
+                        <div class="text-center mb-4">
+                            <div class="text-xl font-bold text-purple-600">1000kg</div>
+                            <div class="text-sm text-gray-600">Payload Capacity</div>
+                        </div>
+                        <div class="space-y-1 text-sm mb-4">
+                            <div>• Swarm intelligence</div>
+                            <div>• 12-hour operation cycle</div>
+                            <div>• Heavy industrial applications</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-lg font-bold">$11,200-14,000</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card bg-white rounded-lg shadow-lg p-6">
+                        <div class="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-brain text-orange-600"></i>
+                        </div>
+                        <h4 class="text-lg font-bold text-center mb-2">AMR-2000</h4>
+                        <div class="text-center mb-4">
+                            <div class="text-xl font-bold text-orange-600">2000kg</div>
+                            <div class="text-sm text-gray-600">Payload Capacity</div>
+                        </div>
+                        <div class="space-y-1 text-sm mb-4">
+                            <div>• Cognitive AI systems</div>
+                            <div>• Fleet coordination</div>
+                            <div>• Mega-scale facilities</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-lg font-bold">$18,000-22,000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+            <!-- IoT Sensors & Services -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">IoT Sensor Portfolio (12% Revenue)</h3>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="text-center">
+                                <div class="bg-blue-100 p-3 rounded-lg mb-2">
+                                    <i class="fas fa-thermometer-half text-blue-600"></i>
+                                </div>
+                                <div class="text-sm font-medium">Environmental</div>
+                                <div class="text-xs text-gray-600">$32-100</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-green-100 p-3 rounded-lg mb-2">
+                                    <i class="fas fa-cog text-green-600"></i>
+                                </div>
+                                <div class="text-sm font-medium">Industrial</div>
+                                <div class="text-xs text-gray-600">$60-320</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-red-100 p-3 rounded-lg mb-2">
+                                    <i class="fas fa-exclamation-triangle text-red-600"></i>
+                                </div>
+                                <div class="text-sm font-medium">Safety</div>
+                                <div class="text-xs text-gray-600">$120-600</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-yellow-100 p-3 rounded-lg mb-2">
+                                    <i class="fas fa-bolt text-yellow-600"></i>
+                                </div>
+                                <div class="text-sm font-medium">Smart Energy</div>
+                                <div class="text-xs text-gray-600">$80-480</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Platform & Services (8% Revenue)</h3>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <div class="bg-blue-100 w-10 h-10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-cloud text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <div class="font-medium">IoT Cloud Platform</div>
+                                    <div class="text-sm text-gray-600">$4,000-20,000/project</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-green-100 w-10 h-10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-tools text-green-600"></i>
+                                </div>
+                                <div>
+                                    <div class="font-medium">Consultation & Implementation</div>
+                                    <div class="text-sm text-gray-600">$8,000-80,000/project</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-purple-100 w-10 h-10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-graduation-cap text-purple-600"></i>
+                                </div>
+                                <div>
+                                    <div class="font-medium">Training & Certification</div>
+                                    <div class="text-sm text-gray-600">$2,000-8,000/course</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-orange-100 w-10 h-10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-headset text-orange-600"></i>
+                                </div>
+                                <div>
+                                    <div class="font-medium">24/7 Maintenance</div>
+                                    <div class="text-sm text-gray-600">$4,000-32,000/year</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add more sections here for Compliance, Team, Contact, etc. -->
+    <!-- This is a substantial portion of the English website - would you like me to continue with the rest? -->
+
+    <script>
+        // Add JavaScript functionality here
+    </script>
+</body>
+</html> 
